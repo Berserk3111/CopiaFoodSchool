@@ -1,5 +1,8 @@
 {
   "name": "foodschool",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }

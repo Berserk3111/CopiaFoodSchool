@@ -3,6 +3,17 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  --color-azul-principal: #0065ff;
+  --color-iconos: #5d5d5d;
+  --color-outline-inputs: #e0e0e0;
+  --color-texto-inputs-inactive: #4d4d4d;
+  --color-errores: #b00020;
+  --color-titulos-formularios: #172b4d;
+  --color-hover-btnPrimario: #00498c;
+  --color-hover-btnSecundario: #e0ecff;
+  --color-blanco: #ffffff;
+  --color-negro: #000000;
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -179,15 +190,11 @@
     --ion-color-step-900: #e6e6e6;
     --ion-color-step-950: #f2f2f2;
 
+    --ion-toolbar-background: #0d0d0d;
+
     --ion-item-background: #000000;
 
     --ion-card-background: #1c1c1d;
-  }
-
-  .ios ion-modal {
-    --ion-background-color: var(--ion-color-step-100);
-    --ion-toolbar-background: var(--ion-color-step-150);
-    --ion-toolbar-border-color: var(--ion-color-step-250);
   }
 
 
@@ -197,11 +204,11 @@
    */
 
   .md body {
-    --ion-background-color: #121212;
-    --ion-background-color-rgb: 18,18,18;
+    --ion-background-color: #ffffff;
+    --ion-background-color-rgb: 2555, 255, 255;
 
-    --ion-text-color: #ffffff;
-    --ion-text-color-rgb: 255,255,255;
+    --ion-text-color: #000000;
+    --ion-text-color-rgb: 0, 0, 0;
 
     --ion-border-color: #222222;
 
@@ -225,12 +232,12 @@
     --ion-color-step-900: #e7e7e7;
     --ion-color-step-950: #f3f3f3;
 
-    --ion-item-background: #1e1e1e;
+    --ion-item-background: #0065FF;
 
-    --ion-toolbar-background: #1f1f1f;
+    --ion-toolbar-background: #0065FF;
 
-    --ion-tab-bar-background: #1f1f1f;
+    --ion-tab-bar-background: #0065FF;
 
-    --ion-card-background: #1e1e1e;
+    --ion-card-background: #0065FF;
   }
 }
